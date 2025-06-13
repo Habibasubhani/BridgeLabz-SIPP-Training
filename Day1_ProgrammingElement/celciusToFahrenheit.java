@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class celciusToFahrenheit {
+public class CelciusToFahrenheit {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double celcius = sc.nextDouble();

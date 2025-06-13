@@ -1,4 +1,4 @@
-public class profitLossCalculator {
+public class ProfitLossCalculator {
     public static void main(String[] args) {
         double costPrice = 129;
         double sellingPrice = 191;

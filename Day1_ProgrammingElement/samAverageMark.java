@@ -1,4 +1,4 @@
-public class samAverageMark {
+public class SamAverageMark {
     public static void main(String[] args) {
         int maths = 94;
         int physics = 95;
