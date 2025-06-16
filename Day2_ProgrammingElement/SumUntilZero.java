@@ -1,3 +1,5 @@
+package LocalRepo.Day2_ProgrammingElement;
+
 import java.util.Scanner;
 public class SumUntilZero {
     public static void main(String[] args) {
