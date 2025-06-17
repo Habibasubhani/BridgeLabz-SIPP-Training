@@ -7,13 +7,11 @@ public class VotingEligibility {
         Scanner sc = new Scanner(System.in);
         int[] ages = new int[10];
 
-        // Taking input for 10 students
         for (int i = 0; i < ages.length; i++) {
             System.out.print("Enter age of student " + (i + 1) + ": ");
             ages[i] = sc.nextInt();
         }
 
-        // Checking eligibility
         for (int age : ages) {
             if (age < 0) {
                 System.out.println("Invalid age");
@@ -25,3 +23,4 @@ public class VotingEligibility {
         }
     }
 }
+
