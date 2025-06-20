@@ -22,7 +22,6 @@ public class NumberFormatDemo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String text = sc.next();
-        // generateException(text); // Uncomment to crash
         handleException(text);
     }
 }

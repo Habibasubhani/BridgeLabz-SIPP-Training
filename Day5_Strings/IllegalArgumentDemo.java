@@ -20,7 +20,6 @@ public class IllegalArgumentDemo {
     }
 
     public static void main(String[] args) {
-        // generateException(); // Uncomment to test without handling
         handleException();
     }
 }
