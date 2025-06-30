@@ -38,11 +38,11 @@ class Order {
     }
 }
 
-class Customer {
+class Customers {
     String name;
     List<Order> orders;
 
-    Customer(String name) {
+    Customers(String name) {
         this.name = name;
         orders = new ArrayList<>();
     }
@@ -67,7 +67,7 @@ public class ECommerceApp {
         Product p2 = new Product("Mouse", 700.0);
         Product p3 = new Product("Keyboard", 1500.0);
 
-        Customer c1 = new Customer("Zoya");
+        Customers c1 = new Customers("Zoya");
 
         Order o1 = new Order(1001);
         o1.addProduct(p1);

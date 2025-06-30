@@ -19,6 +19,7 @@ class Course {
         for (Student s : enrolledStudents) {
             System.out.println("- " + s.name);
         }
+        System.out.println();
     }
 }
 
@@ -40,6 +41,7 @@ class Student {
         for (Course c : courses) {
             System.out.println("- " + c.courseName);
         }
+        System.out.println();
     }
 }
 
@@ -60,6 +62,7 @@ class School {
         for (Student s : students) {
             System.out.println("- " + s.name);
         }
+        System.out.println();
     }
 }
 
@@ -82,11 +85,9 @@ public class SchoolApp {
 
         s1.showCourses();
         s2.showCourses();
-        System.out.println();
 
         c1.showEnrolledStudents();
         c2.showEnrolledStudents();
-        System.out.println();
 
         school.listStudents();
     }

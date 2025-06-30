@@ -2,10 +2,10 @@ package LocalRepo.Day4_ObjectModelling;
 
 import java.util.*;
 
-class Department {
+class Departments {
     String name;
 
-    Department(String name) {
+    Departments(String name) {
         this.name = name;
     }
 
@@ -45,7 +45,8 @@ class University {
 
     void showDepartments() {
         System.out.println(name + " Departments:");
-        for (Department d : departments) {
+        Departments[] depart = null;
+        for (Departments d : depart) {
             d.show();
         }
     }
@@ -76,7 +77,7 @@ public class UniversityApp {
         uni.showDepartments();
         uni.showFaculties();
 
-        uni = null; // University deleted → departments no longer exist
+        uni = null; 
 
         System.out.println("\nFaculty still exists independently:");
         f1.show();
