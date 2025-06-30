@@ -1,11 +1,11 @@
 package LocalRepo.Day2_JavaConstructor;
 
-class Book {
+class Books {
     public String ISBN;
     protected String title;
     private String author;
 
-    Book(String ISBN, String title, String author) {
+    Books(String ISBN, String title, String author) {
         this.ISBN = ISBN;
         this.title = title;
         this.author = author;
@@ -26,7 +26,7 @@ class Book {
     }
 }
 
-class EBook extends Book {
+class EBook extends Books {
     double fileSize;
 
     EBook(String ISBN, String title, String author, double fileSize) {
@@ -43,7 +43,7 @@ class EBook extends Book {
 
 public class LibraryApp {
     public static void main(String[] args) {
-        Book b1 = new Book("978-0140449136", "The Odyssey", "Homer");
+        Books b1 = new Books("978-0140449136", "The Odyssey", "Homer");
         b1.displayBookDetails();
         System.out.println();
 
